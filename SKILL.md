@@ -1,6 +1,6 @@
 ---
 name: kimi-design-refer
-description: "Apply an original Kimi-inspired quiet computational visual system across websites, PPT/PDF, posters, social graphics, infographics, diagrams and motion. Includes seven Kimi Core Families and an optional five-family Zine Editorial Extension."
+description: "Apply an original Kimi-inspired quiet computational visual system across websites, PPT/PDF, posters, social graphics, infographics, diagrams and motion. Includes seven Kimi Core Families, an optional five-family Zine Editorial Extension, and integration with an upper-level Design Rules Router."
 ---
 
 # Kimi Design Refer
@@ -10,6 +10,20 @@ This is an aesthetic reference and routing layer, not an official Kimi brand kit
 ## Design equation
 
 `quiet field + bounded evidence system + technical hierarchy + visible process + restrained anomaly`
+
+## 0. Upper-level routing
+
+If the user explicitly names a Kimi family, continue directly with this Skill.
+
+If the user instead asks for automatic art direction, says things like "choose the best style", wants a cross-system comparison, or asks for a design review without a fixed family, read:
+
+- `design-rules/SKILL.md`
+- `design-rules/router.md`
+- `design-rules/style-registry.json`
+
+The upper layer should first decide whether `kimi-design-refer` is actually the best registered system for the brief.
+
+Do not force Kimi styling onto every AI, technology, trading or finance request merely because this Skill is available.
 
 ## 1. Choose the medium
 
@@ -46,6 +60,8 @@ Read `references/style-families.md`.
 If a zine family or Kimi × Zine blend is requested, also read `references/zine-editorial-extension.md`.
 
 The seven Kimi families remain the core. The five zine families are an editorial extension. Never average all families together.
+
+If the family is not specified, use the routing logic in `design-rules/router.md` rather than defaulting to a favorite family.
 
 ## 3. Composition rules
 
@@ -84,9 +100,11 @@ Intensity:
 
 Do not add beige paper, torn edges or typewriter text unless the zine system is actually active.
 
+For cross-system blending beyond Kimi × Zine, read `design-rules/blend-policy.md` and define one dominant system explicitly.
+
 ## 6. Quality gate
 
-A strong result should pass these checks:
+A strong result should pass these family-level checks:
 1. one clear primary family;
 2. one clear focal/evidence system;
 3. intentional negative space;
@@ -99,6 +117,8 @@ A strong result should pass these checks:
 10. original composition rather than a copied campaign frame.
 
 When `zine/*` is active, also require 70–90% open field, one primary visual event, one chromatic anchor, coherent print/scan texture and restrained editorial typography.
+
+Before final delivery, also apply `design-rules/quality-gate.md` when available. The artifact should pass both universal quality and family fidelity.
 
 ## 7. Originality boundary
 
