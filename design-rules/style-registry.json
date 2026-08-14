@@ -39,83 +39,18 @@
         "comparison": 3
       },
       "families": [
-        {
-          "id": "black-orbit",
-          "best_for": ["system", "infrastructure", "network", "ecosystem"],
-          "density": ["low", "medium"],
-          "temperature": ["quiet", "neutral"]
-        },
-        {
-          "id": "pixel-moon",
-          "best_for": ["builder", "experimental", "developer", "exploration"],
-          "density": ["low", "medium"],
-          "temperature": ["quiet", "neutral"]
-        },
-        {
-          "id": "white-lab",
-          "best_for": ["measurement", "analysis", "tool", "process"],
-          "density": ["medium", "high"],
-          "temperature": ["quiet", "neutral"]
-        },
-        {
-          "id": "cosmic-index",
-          "best_for": ["knowledge", "research", "map", "taxonomy"],
-          "density": ["low", "medium"],
-          "temperature": ["quiet"]
-        },
-        {
-          "id": "gray-proofboard",
-          "best_for": ["evidence", "comparison", "case-study", "rules"],
-          "density": ["low", "medium", "high"],
-          "temperature": ["quiet", "neutral"]
-        },
-        {
-          "id": "kinetic-glyph",
-          "best_for": ["statement", "launch", "identity", "manifesto"],
-          "density": ["whisper", "low"],
-          "temperature": ["neutral", "energetic"]
-        },
-        {
-          "id": "simulation-window",
-          "best_for": ["simulation", "demo", "generated-output", "process"],
-          "density": ["medium", "high"],
-          "temperature": ["neutral", "energetic"]
-        },
-        {
-          "id": "zine/micro-archive",
-          "role": "extension-or-primary",
-          "best_for": ["archive", "editorial", "research-cover", "quiet-proof"],
-          "density": ["whisper", "low"],
-          "temperature": ["quiet"]
-        },
-        {
-          "id": "zine/dual-memory",
-          "role": "extension-or-primary",
-          "best_for": ["comparison", "before-after", "paired-state"],
-          "density": ["low"],
-          "temperature": ["quiet", "neutral"]
-        },
-        {
-          "id": "zine/color-cutout",
-          "role": "extension-or-primary",
-          "best_for": ["campaign", "focal-tension", "event"],
-          "density": ["low"],
-          "temperature": ["neutral", "energetic"]
-        },
-        {
-          "id": "zine/type-relic",
-          "role": "extension-or-primary",
-          "best_for": ["identity", "statement", "typography"],
-          "density": ["whisper", "low"],
-          "temperature": ["quiet", "neutral"]
-        },
-        {
-          "id": "zine/orbit-notes",
-          "role": "extension-or-primary",
-          "best_for": ["research-notes", "mapping", "annotation", "observation"],
-          "density": ["whisper", "low"],
-          "temperature": ["quiet"]
-        }
+        {"id":"black-orbit","best_for":["system","infrastructure","network","ecosystem"],"density":["low","medium"],"temperature":["quiet","neutral"]},
+        {"id":"pixel-moon","best_for":["builder","experimental","developer","exploration"],"density":["low","medium"],"temperature":["quiet","neutral"]},
+        {"id":"white-lab","best_for":["measurement","analysis","tool","process"],"density":["medium","high"],"temperature":["quiet","neutral"]},
+        {"id":"cosmic-index","best_for":["knowledge","research","map","taxonomy"],"density":["low","medium"],"temperature":["quiet"]},
+        {"id":"gray-proofboard","best_for":["evidence","comparison","case-study","rules"],"density":["low","medium","high"],"temperature":["quiet","neutral"]},
+        {"id":"kinetic-glyph","best_for":["statement","launch","identity","manifesto"],"density":["whisper","low"],"temperature":["neutral","energetic"]},
+        {"id":"simulation-window","best_for":["simulation","demo","generated-output","process"],"density":["medium","high"],"temperature":["neutral","energetic"]},
+        {"id":"zine/micro-archive","role":"extension-or-primary","best_for":["archive","editorial","research-cover","quiet-proof"],"density":["whisper","low"],"temperature":["quiet"]},
+        {"id":"zine/dual-memory","role":"extension-or-primary","best_for":["comparison","before-after","paired-state"],"density":["low"],"temperature":["quiet","neutral"]},
+        {"id":"zine/color-cutout","role":"extension-or-primary","best_for":["campaign","focal-tension","event"],"density":["low"],"temperature":["neutral","energetic"]},
+        {"id":"zine/type-relic","role":"extension-or-primary","best_for":["identity","statement","typography"],"density":["whisper","low"],"temperature":["quiet","neutral"]},
+        {"id":"zine/orbit-notes","role":"extension-or-primary","best_for":["research-notes","mapping","annotation","observation"],"density":["whisper","low"],"temperature":["quiet"]}
       ]
     }
   ],
@@ -137,8 +72,12 @@
     },
     {
       "id": "htx-design-refer",
-      "status": "planned",
-      "notes": "institutional crypto/finance brand system"
+      "status": "source-ready",
+      "maturity": "source-derived-v0.1",
+      "planned_repo": "78tyih/htx-design-refer",
+      "source_material": ["htx-brand.skill", "htx-social-poster.skill", "htx-huobao-fast.skill"],
+      "families": ["brand-blue-field", "blue-grid-reward", "soft-blue-information", "blue-white-hero", "vip-gold", "huobao-character"],
+      "notes": "Source-derived HTX brand system is prepared locally; activate after the standalone repository is created and benchmarked."
     }
   ]
 }
