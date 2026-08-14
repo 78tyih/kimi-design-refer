@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.1",
+  "router_policy": {
+    "default_max_primary_systems": 1,
+    "default_max_extensions": 1,
+    "require_medium_fit": true,
+    "prefer_no_blend_when_one_system_is_sufficient": true
+  },
+  "systems": [
+    {
+      "id": "kimi-design-refer",
+      "status": "active",
+      "maturity": "benchmark-backed",
+      "type": "design-reference-system",
+      "source": "./systems/kimi-design-refer.md",
+      "skill_entry": "../SKILL.md",
+      "philosophy": [
+        "quiet computational",
+        "evidence-led",
+        "negative-space disciplined",
+        "visible reasoning trace",
+        "restrained anomaly"
+      ],
+      "medium_fit": {
+        "web-ui": 3,
+        "ppt-pdf": 3,
+        "poster-social": 3,
+        "infographic": 3,
+        "motion": 3,
+        "review-only": 3
+      },
+      "content_fit": {
+        "system": 3,
+        "evidence": 3,
+        "knowledge": 3,
+        "process": 3,
+        "statement": 3,
+        "memory-editorial": 2,
+        "comparison": 3
+      },
+      "families": [
+        {
+          "id": "black-orbit",
+          "best_for": ["system", "infrastructure", "network", "ecosystem"],
+          "density": ["low", "medium"],
+          "temperature": ["quiet", "neutral"]
+        },
+        {
+          "id": "pixel-moon",
+          "best_for": ["builder", "experimental", "developer", "exploration"],
+          "density": ["low", "medium"],
+          "temperature": ["quiet", "neutral"]
+        },
+        {
+          "id": "white-lab",
+          "best_for": ["measurement", "analysis", "tool", "process"],
+          "density": ["medium", "high"],
+          "temperature": ["quiet", "neutral"]
+        },
+        {
+          "id": "cosmic-index",
+          "best_for": ["knowledge", "research", "map", "taxonomy"],
+          "density": ["low", "medium"],
+          "temperature": ["quiet"]
+        },
+        {
+          "id": "gray-proofboard",
+          "best_for": ["evidence", "comparison", "case-study", "rules"],
+          "density": ["low", "medium", "high"],
+          "temperature": ["quiet", "neutral"]
+        },
+        {
+          "id": "kinetic-glyph",
+          "best_for": ["statement", "launch", "identity", "manifesto"],
+          "density": ["whisper", "low"],
+          "temperature": ["neutral", "energetic"]
+        },
+        {
+          "id": "simulation-window",
+          "best_for": ["simulation", "demo", "generated-output", "process"],
+          "density": ["medium", "high"],
+          "temperature": ["neutral", "energetic"]
+        },
+        {
+          "id": "zine/micro-archive",
+          "role": "extension-or-primary",
+          "best_for": ["archive", "editorial", "research-cover", "quiet-proof"],
+          "density": ["whisper", "low"],
+          "temperature": ["quiet"]
+        },
+        {
+          "id": "zine/dual-memory",
+          "role": "extension-or-primary",
+          "best_for": ["comparison", "before-after", "paired-state"],
+          "density": ["low"],
+          "temperature": ["quiet", "neutral"]
+        },
+        {
+          "id": "zine/color-cutout",
+          "role": "extension-or-primary",
+          "best_for": ["campaign", "focal-tension", "event"],
+          "density": ["low"],
+          "temperature": ["neutral", "energetic"]
+        },
+        {
+          "id": "zine/type-relic",
+          "role": "extension-or-primary",
+          "best_for": ["identity", "statement", "typography"],
+          "density": ["whisper", "low"],
+          "temperature": ["quiet", "neutral"]
+        },
+        {
+          "id": "zine/orbit-notes",
+          "role": "extension-or-primary",
+          "best_for": ["research-notes", "mapping", "annotation", "observation"],
+          "density": ["whisper", "low"],
+          "temperature": ["quiet"]
+        }
+      ]
+    }
+  ],
+  "planned_system_slots": [
+    {
+      "id": "linear-design-refer",
+      "status": "planned",
+      "notes": "precision product UI, dense but calm operational software"
+    },
+    {
+      "id": "stripe-design-refer",
+      "status": "planned",
+      "notes": "editorial product storytelling, developer/product hybrid visuals"
+    },
+    {
+      "id": "nothing-design-refer",
+      "status": "planned",
+      "notes": "industrial typography, dot-matrix, object-led identity"
+    },
+    {
+      "id": "htx-design-refer",
+      "status": "planned",
+      "notes": "institutional crypto/finance brand system"
+    }
+  ]
+}
